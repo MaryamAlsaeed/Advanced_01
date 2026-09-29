@@ -189,6 +189,14 @@
          */
         #endregion
 
+        #region Q17:
+        /*
+         * What is the difference between covariance and contravariance? 
+         * Covariance (out): Derived to Base, used when returning values.
+         * while Contravariance (in: Base to Derived, used when accepting values.
+         */
+        #endregion
+
         static void Main(string[] args)
         {
             
