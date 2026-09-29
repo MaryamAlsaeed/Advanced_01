@@ -53,6 +53,19 @@
             return max;
         }
         #endregion
+
+        #region Q6
+        /* What is a generic interface?
+         * A generic interface is an interface that accepts a type parameter.
+         */
+        interface IRepository<T>
+        {
+            void Add(T item);
+            T Get(int id);
+            void Remove(int id);
+
+        }
+        #endregion
         static void Main(string[] args)
         {
             
