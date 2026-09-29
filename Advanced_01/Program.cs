@@ -115,6 +115,21 @@
             void Print();
         }
         #endregion
+        #region Q11:
+        /*
+         * What is the base class constraint?
+         * It means that T must inherit from a specific base class.
+         */
+        class Animal
+        {
+            public void Eat()
+            {
+                Console.WriteLine("Eating");
+            }
+        }
+
+        #endregion
+
         static void Main(string[] args)
         {
             
