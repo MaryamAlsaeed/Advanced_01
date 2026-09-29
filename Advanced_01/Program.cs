@@ -8,6 +8,15 @@
          * A generic class is a class that works with different data types and represented by <T>.
          */
         #endregion
+
+        #region Q2
+        class Container<T>
+        {
+            private List<T> _mylist = new();
+            public void Add(T mylist) => _mylist.Add(mylist);
+            public T Get(int index) => _mylist[index];
+        }
+        #endregion
         static void Main(string[] args)
         {
             
