@@ -197,6 +197,13 @@
          */
         #endregion
 
+        #region Q18:
+        /*
+         * Q18: How do static members work in generic types? 
+         * Each closed generic type gets its own static members.
+         */
+        #endregion
+
         static void Main(string[] args)
         {
             
