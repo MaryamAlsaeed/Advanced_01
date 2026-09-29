@@ -204,6 +204,13 @@
          */
         #endregion
 
+        #region Q19:
+        /*
+         * How can you inherit from a generic class?
+         * You can inherit from a generic class by specifying the type of the class we are going to inherit from.
+        */
+        #endregion
+
         static void Main(string[] args)
         {
             
