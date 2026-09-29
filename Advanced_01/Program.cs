@@ -104,6 +104,17 @@
         }
 
         #endregion
+
+        #region Q10
+        /*
+         *  What is the interface constraint?
+         * It means that T must implement a specific interface.
+         */
+        interface IPrintable
+        {
+            void Print();
+        }
+        #endregion
         static void Main(string[] args)
         {
             
