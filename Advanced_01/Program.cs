@@ -115,7 +115,8 @@
             void Print();
         }
         #endregion
-        #region Q11:
+
+        #region Q11
         /*
          * What is the base class constraint?
          * It means that T must inherit from a specific base class.
@@ -128,6 +129,21 @@
             }
         }
 
+        #endregion
+
+        #region Q12:
+        /*
+         *   How do you apply multiple constraints?
+         * We can apply more than one constraint using multiple conditions after where and commas
+         */
+
+        class Repository<T> where T : class, IPrintable, new()
+        {
+            public T Create()
+            {
+                return new T();
+            }
+        }
         #endregion
 
         static void Main(string[] args)
