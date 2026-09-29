@@ -173,6 +173,14 @@
         }
         #endregion
 
+        #region Q15
+        /*
+         * What is covariance? Explain the 'out' keyword.
+         * Covariance allows a generic type to use a more derived type where a base type is expected.
+         * it comes out from interfaces as a return value
+         */
+        #endregion
+
         static void Main(string[] args)
         {
             
