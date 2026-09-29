@@ -66,6 +66,18 @@
 
         }
         #endregion
+
+        #region Q7
+        /*
+         * What is the 'struct' constraint?
+         * The struct constraint means that T data type must be a value type.
+         */
+
+        class Containerr<T> where T : struct
+        {
+            public T Value { get; set; }
+        }
+        #endregion
         static void Main(string[] args)
         {
             
