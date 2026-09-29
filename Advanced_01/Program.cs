@@ -17,6 +17,15 @@
             public T Get(int index) => _mylist[index];
         }
         #endregion
+
+        #region Q3
+        public class Pair<TFirst, TSecond>
+        {
+            public TFirst First { get; }
+            public TSecond Second { get; }
+            public Pair(TFirst first, TSecond second) { First = first; Second = second; }
+        }
+        #endregion
         static void Main(string[] args)
         {
             
