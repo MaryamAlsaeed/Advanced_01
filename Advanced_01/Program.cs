@@ -43,6 +43,16 @@
             b = temp;
         }
         #endregion
+
+        #region Q5
+        static T FindMax<T>(T[] items) where T : IComparable<T> // => to be able to compare with generics
+        {
+            T max = items[0];
+            foreach (var item in items)
+                if (item.CompareTo(max) > 0) max = item;
+            return max;
+        }
+        #endregion
         static void Main(string[] args)
         {
             
