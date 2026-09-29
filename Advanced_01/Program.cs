@@ -89,6 +89,21 @@
             public T Value { get; set; }
         }
         #endregion
+
+        #region Q9
+        /*
+         * What is the 'new()' constraint?
+         * The new() constraint means that T must have a public parameterless constructor.
+         */
+        class ParameterlessCTOR<T> where T : new()
+        {
+            public T Create()
+            {
+                return new T();
+            }
+        }
+
+        #endregion
         static void Main(string[] args)
         {
             
