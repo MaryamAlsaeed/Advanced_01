@@ -131,7 +131,7 @@
 
         #endregion
 
-        #region Q12:
+        #region Q12
         /*
          *   How do you apply multiple constraints?
          * We can apply more than one constraint using multiple conditions after where and commas
@@ -144,6 +144,13 @@
                 return new T();
             }
         }
+        #endregion
+
+        #region Q13
+        /*
+         * What does the 'default' keyword do in generics?
+         * It returns the default value of type T.
+         */
         #endregion
 
         static void Main(string[] args)
