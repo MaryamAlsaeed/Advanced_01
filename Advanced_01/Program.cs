@@ -78,6 +78,17 @@
             public T Value { get; set; }
         }
         #endregion
+
+        #region Q8
+        /*
+         *  What is the 'class' constraint?
+         *  The class constraint means that T data type must be a reference type.
+         */
+        class Containerrr<T> where T : class
+        {
+            public T Value { get; set; }
+        }
+        #endregion
         static void Main(string[] args)
         {
             
